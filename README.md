@@ -55,4 +55,4 @@ If you encounter any problem or issue with the website feel free to contact me a
 ## License
 
 This software is Licenced under MIT Licence
-Copyright 2018( ChristineMulindi)
+Copyright 2019
