@@ -50,7 +50,7 @@ This a personal blogging website where you can create and share your opinions an
 
 ## Bugs and issues
 
-If you encounter any problem or issue with the website feel free to contact me at (mulindichristine@gmail.com)
+If you encounter any problem or issue with the website feel free to contact me at (jselynetusingwire@gmail.com)
 
 ## License
 
