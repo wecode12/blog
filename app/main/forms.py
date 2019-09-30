@@ -4,7 +4,7 @@ from wtforms.validators import Required, Length, DataRequired
 
 
 class PostForm(FlaskForm):
-    CATEGORIES=[('FASHION & BEAUTY', 'FASHION & BEAUTY'), ('ART', 'ART'), ('CAREER & FINANCE', 'CAREER & FINANCE'), ('MOTHERHOOD', 'MOTHERHOOD'), ('GAMING', 'GAMING'), ('MUSIC', 'MUSIC')]
+    CATEGORIES=[('FASHION & BEAUTY', 'FASHION & BEAUTY'), ('EDUCATION', 'EDUCATION'), (' FINANCE', ' FINANCE'), ('MOTHERHOOD', 'MOTHERHOOD'), ('GAMING', 'GAMING'), ('MUSIC', 'MUSIC')]
     category=SelectField("CATEGORIES",choices=CATEGORIES)
     title=StringField("TITLE",validators=[DataRequired()])
     post=TextAreaField("BLOG",validators=[Required()])

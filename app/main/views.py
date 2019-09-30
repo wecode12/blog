@@ -11,7 +11,7 @@ from ..import db,photos
 @main.route("/",methods=["GET","POST"])
 def index():
     random_quote = get_quote()
-    categories=["FASHION & BEAUTY", "ART", "CAREER & FINANCE", "MOTHERHOOD", "GAMING", "MUSIC"]
+    categories=["FASHION & BEAUTY", "EDUCATION", "FINANCE", "MOTHERHOOD", "GAMING", "MUSIC"]
     return render_template('index.html',categories = categories,quotes=random_quote)
 
 
@@ -61,7 +61,7 @@ def new_comment(post_id):
     if form.validate_on_submit():
         comment = form.comment.data
 
-        # Updated comment instance
+        # Updated comment_method
         new_comment = Comment(text=comment,user_id=current_user.id, post_id=post_id)
 
         # save review method
